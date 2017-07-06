@@ -1,0 +1,7 @@
+@()(implicit flash: Flash)
+@*template da pagina inicial, captura um flash de erro se o login nao for efetivado*@
+@main("IMDB rocks on Play :)") {
+  <h1>LIGHT IMDB</h1>
+  <h2>@flash.get("erro").getOrElse("Bem vindo")</h2>
+  <a href="@routes.UsuarioController.novoLogin()">Entrar</a>
+}

@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/marcelopc/gitProjects/imdb/IMDB_Main/conf/routes,/home/marcelopc/gitProjects/imdb/IMDB_Main/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcelopc/gitProjects/imdb/IMDB_Main/conf/logback.xml,/home/marcelopc/gitProjects/imdb/IMDB_Main/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcelopc/gitProjects/imdb/IMDB_Main/conf/application.conf,/home/marcelopc/gitProjects/imdb/IMDB_Main/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcelopc/gitProjects/imdb/IMDB_Main/conf/messages,/home/marcelopc/gitProjects/imdb/IMDB_Main/target/scala-2.11/classes/messages)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcelopc/gitProjects/imdb/IMDB_Main/conf/evolutions,/home/marcelopc/gitProjects/imdb/IMDB_Main/target/scala-2.11/classes/evolutions)[0m
+[0m[[0mdebug[0m] [0m	(/home/marcelopc/gitProjects/imdb/IMDB_Main/conf/evolutions/1.sql,/home/marcelopc/gitProjects/imdb/IMDB_Main/target/scala-2.11/classes/evolutions/1.sql)[0m

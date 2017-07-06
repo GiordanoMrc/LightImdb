@@ -1,0 +1,12 @@
+@* listagem Avaliacoes*@
+@(avaliacoes: List[Avaliacao], email: String)(implicit flash:Flash)
+
+@main("Avaliacoes") {
+  @flash.get("erro")
+  <h1>@email</h1>
+  <ul>
+  @for(avaliacao <- avaliacoes) {
+    <li>@avaliacao.email - @avaliacao.ID_FILME - @avaliacao.comentario - @avaliacao.nota <a>Deletar</a></button></li>
+  }
+  </ul><button><a href="@routes.AvaliacaoController.novaAvaliacao()">Cadastrar nova Avaliacao</a></button>
+}

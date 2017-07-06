@@ -1,0 +1,13 @@
+@* novaAvaliacao Template File *@
+@(avaliacaoForm: Form[AvaliacaoVO])(implicit messages: Messages)
+
+@main("nova Avaliacao") {
+  @helper.form(action = routes.AvaliacaoController.submeterAvaliacao()) {
+    @helper.inputText(avaliacaoForm("Comentario"))
+    @helper.inputText(avaliacaoForm("Nota"))
+
+    <div class="form-actions">
+      <button type="submit">Cadastrar novo filme</button>
+    </div>
+  }
+}

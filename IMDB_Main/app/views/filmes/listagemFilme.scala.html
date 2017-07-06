@@ -1,0 +1,11 @@
+@* listagem Template File *@
+@(filmes: List[Filme], email: String)
+
+@main("IMDB") {
+    <h1>@email</h1>
+   <ul>
+     @for(filme <- filmes) {
+       <li>@filme.titulo - @filme.diretor - @filme.anoProducao<button><a href="@routes.AvaliacaoController.listarAvaliacoes(email,filme.ID_FILME)">Avaliar</a></button><button><a href="@routes.FilmeController.deletarFilme(filme.ID_FILME)" >Deletar</a></button></li>
+     }
+   </ul><button><a href="@routes.FilmeController.novoFilme()">Cadastrar novo filme</a></button>
+}
